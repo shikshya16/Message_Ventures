@@ -1,6 +1,7 @@
  const User = require ('../models/user.model');
 
  const getUsersForSidebar = async (req, res) => {
+
 	try {
 		const loggedInUserId = req.user._id;
 
@@ -12,6 +13,7 @@
 		console.error("Error in getUsersForSidebar: ", error.message);
 		res.status(500).json({ error: "Internal server error" });
 	}
+
 };
 
 module.exports = { getUsersForSidebar };
