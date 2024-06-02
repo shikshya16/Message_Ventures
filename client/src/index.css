@@ -47,7 +47,9 @@ body {
 	}
 
 	30%,
+	
 	50%,
+
 	70% {
 		transform: translate3d(-4px, 0, 0);
 	}
