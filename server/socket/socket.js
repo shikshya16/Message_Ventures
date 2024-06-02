@@ -20,6 +20,7 @@ const getReceiverSocketId = (receiverId) => {
 
 
 io.on("connection", (socket) => {
+	
 	console.log("a user connected", socket.id);
 
 	const userId = socket.handshake.query.userId;
