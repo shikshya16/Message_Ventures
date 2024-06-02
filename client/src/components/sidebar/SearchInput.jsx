@@ -6,6 +6,7 @@ import useGetConversations from "../../hooks/useGetConversations";
 import toast from "react-hot-toast";
 
 const SearchInput = () => {
+	
 	const [search, setSearch] = useState("");
 	const { setSelectedConversation } = useConversation();
 	const { conversations } = useGetConversations();
