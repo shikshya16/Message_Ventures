@@ -1,4 +1,5 @@
 export const funEmojis = [
+
 	"👾",
 	"⭐",
 	"🌟",
@@ -53,6 +54,7 @@ export const funEmojis = [
 	"🏌️",
 	"🏇",
 	"🧘",
+	
 ];
 
 export const getRandomEmoji = () => {
