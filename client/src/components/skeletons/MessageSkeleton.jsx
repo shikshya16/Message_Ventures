@@ -1,5 +1,6 @@
 import React from "react";
 const MessageSkeleton = () => {
+
 	return (
 		<>
 			<div className='flex gap-3 items-center'>
@@ -16,6 +17,7 @@ const MessageSkeleton = () => {
 				<div className='skeleton w-10 h-10 rounded-full shrink-0'></div>
 			</div>
 		</>
+		
 	);
 };
 export default MessageSkeleton;
